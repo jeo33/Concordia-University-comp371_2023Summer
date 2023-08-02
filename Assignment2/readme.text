@@ -1,0 +1,133 @@
+Computer Engineering,Concordia University
+Junpeng gai
+40009896
+If there are any problem please contact me at:
+E-mail: GJPWEWQ@HOTMAIL.COM
+
+******************************References********************************************
+I used the frame work from lab8.
+
+I use this tutorial as reference while I was doing my assignment:
+https://learnopengl.com/
+
+Also I follow his step doing shadow mapping and triangle mesh
+https://www.bilibili.com/video/BV11Z4y1c7so/?spm_id_from=333.999.0.0(执念的鱼汤)
+
+*************************************************************************************
+
+//----------------------------------------Configuration---------------------------------------------//
+
+Because I manually link the include directory and library directory in the root folder:
+
+my project sructure is:
+--$SolutionDir
+ |----Assignment_2
+ |----Debug
+ |----dependencies(contains GLEW GLFW and GLM)
+ |  |
+ |  |----include
+ |  |----lib
+ |
+ |----Assets
+ |  |---Shaders
+ |  |---Textures
+ |
+ |----Assignment_2.sln(Visual studio 2022)
+
+So in the property of the project, I linked the :
+1.include Directories:$(SolutionDir)dependencies\include\
+2.librart Directories:$(SolutionDir)dependencies\lib\
+3.in the linker option my dipendencies are:
+	opengl32.lib
+	glew32s.lib
+	glfw3_mt.lib
+	glfw3.lib
+
+Shaders:3 sets
+
+Rendering texture+shadow
+"TexturedVertexShader.glsl"+ "TexturedFragmentShader.glsl";
+
+Rendering light source
+"lightshadervertex.glsl"+ "lightshaderFragment.glsl";
+
+Rendering for shadow map
+"simpleshadervertex.glsl"+ "simpleshaderFragment.glsl";
+
+Textures:lots of pictures for different textures.
+
+//------------------------------------------Features and functionality---------------------------------------//
+
+
+Here is the Grading rubric			|	pts	|	key bind
+=====================================================================================================
+Model 						|	10 pts 	|
+Spherical model of a Tennis ball 		|	10 pts 	|
+Lighting 					|	15 pts 	|
+Point light source				|	15 pts 	|
+Texture Mapping 				|	20 pts 	|
+Texture for the ball 				|	05 pts 	|	
+Texture for the ground 				|	05 pts 	|
+Texture for Tennis racket 			|	10 pts 	|
+Shadow Mapping 					|	25 pts	|
+Shadows in the scene 				|	25 pts 	|
+Model Movement 					|	20 pts 	|	
+Lower half movements for the Model 		|	10 pts 	|
+Upper half movements for the Model 		|	10 pts 	|
+Demo QnA by the Grader 				|	10 pts	|
+--------------------------------------------------------------------------------
+Toggle texture 					|	10 pts	|    Y
+Toggle shadow 					|	10 pts	|    O
+--------------------------------------------------------------------------------
+Joint movements:				|		|press 3,4,5,6 to select mode(6 is the default mode)
+lower arm					|		|press 3
+upper arm					|		|press 4
+joint between upper arm and racket		|		|press 5
+------------------------------------------------------------------------------------------------------------------------
+Repositioning the Model (Spacebar) 		|		|	space	:reset the model at random
+Sizing the Model up and down 			|	 	|	U(size up) and J(size down)
+------------------------------------------------------------------------------------------------------
+Update Model position (WSAD) 			|	 	|	W:Model up;	A:Model left;
+									S:Model down;	D:Model right;
+------------------------------------------------------------------------------------------------------
+Model rotation around Y-axis (a and d) 		|	 	|	Z:	Counter Clockwise rotation around Model Y-axis;
+						|		|	C:	Clockwise rotation around Model Y-axis;
+						|		|	Q:	Counter Clockwise rotation around world coordianate Y-axis;
+						|		|	E:	Clockwise rotation around world coordianate Y-axis;
+------------------------------------------------------------------------------------------------------
+Changing world orientation (arrows and HOME) 	|	 	|
+						|		|	UP arrow:	Counter Clockwise rotation around world coordianate X-axis;
+						|		|	DOWN arrow:	Clockwise rotation around world coordianate X-axis;
+						|		|	RIGHT arrow:	Clockwise rotation around world coordianate Y-axis;
+						|		|	LEFT arrow:	Counter Clockwise rotation around world coordianate Y-axis;
+						|		|	HOME:		back to initial position no matter it's shifted,scaled, or rotated.
+
+------------------------------------------------------------------------------------------------------
+Rendering modes (P, L, T) 			|	 	|
+						|		|	P:	 change rendering mode to points
+						|		|	L:	 change rendering mode to lines
+						|		|	T:	 change rendering mode to triangles(default mode)
+------------------------------------------------------------------------------------------------------
+Camera tilt and pan 				|	 	|
+						|		|	mouse right  button:	hold and slowly drag to left or right
+						|		|	mouse middle button:	hold and slowly drag upward or downward
+------------------------------------------------------------------------------------------------------
+Camera zoom (in and out) 			|	 	|
+						|		|	mouse left  button:	 hold and slowly drag to left or right.
+------------------------------------------------------------------------------------------------------
+Demo QnA by the Grader 				|	 	|
+Relative Grade 					|		|
+
+
+
+
+//--------------------------------Other functions-----------------------------------------------//
+
+1:	 Zoom out with fov
+2:	 Zoom in with fov
+R:	 Move model along +Z axis
+T:	 Move model along -Z axis
+V:	 Pan to the right
+B:	 Pan to the left
+F:	 Tilt up
+G:	 Tilt down
