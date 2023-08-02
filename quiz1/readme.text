@@ -1,1 +1,85 @@
 
+Computer Engineering,Concordia University
+Junpeng gai
+40009896
+If there are any problem please contact me at:
+E-mail: GJPWEWQ@HOTMAIL.COM
+
+//----------------------------------------Configuration---------------------------------------------//
+
+Because I manually link the include directory and library directory in the root folder:
+
+my project sructure is:
+--$SolutionDir
+ |----Quiz1_JunPengGai_40009896
+ |----Debug
+ |----dependencies(contains GLEW GLFW and GLM)
+ |  |
+ |  |----include
+ |  |----lib
+ |
+ |----Quiz1_JunPengGai_40009896.sln(Visual studio 2022)
+
+So in the property of the project, I linked the :
+1.include Directories:$(SolutionDir)dependencies\include\
+2.librart Directories:$(SolutionDir)dependencies\lib\
+3.in the linker option my dipendencies are:
+	opengl32.lib
+	glew32s.lib
+	glfw3_mt.lib
+	glfw3.lib
+
+Configuration: 	Debug
+Platform:	win32
+//------------------------------------------Features and functionality---------------------------------------//
+
+
+1. Each racket should be selected by pressing a key from 1 to 4. (1 Pt)
+
+Using 1,2,3 and 4 on key board.
+
+2. The user can rotate each racket in clockwise or anti-clockwise direction around Yaxis which is pointing upwards. Assign apt keys for rotational purposes; however, 
+each racket needs to be independently rotatable, and each character must have a 
+distinct color. (2 Pts)
+use Q and E can rotate racket in cw or ccw direction.
+
+3. The user can control camera position while looking at each racket using keys 1 to 4. You must adjust the camera position as well as look-at-point to the center of the 
+racket you are looking at. (2 Pts) 
+
+Using 1,2,3 and 4 on key board.Also, W,A,S and D can move camera along X,Y plane and U and J can zoom in and zoom out.
+123
+4. The application must use OpenGL 4.1 and onwards and must include brief comments explaining each step. Grader will ask for a small modification to understand your grasp 
+of your code. (3 Pts)
+comments has been added.
+
+
+functions					|key bind
+=====================================================================================================
+Racket selection				|1: 	Select left most racket
+						|2:	Select 2ed racket
+						|3:	Select 3rd racket
+						|4:	Select right most racket
+------------------------------------------------------------------------------------------------------
+Repositioning the Model (Spacebar) 		|space	:reset the model position(example:if we rotate one racket we can reset if by pressing space)
+------------------------------------------------------------------------------------------------------
+Sizing the Model up and down 			|U(size up) and J(size down)
+------------------------------------------------------------------------------------------------------
+Update Model position (WSAD) 			|W:Model down;	A:Model right;
+						|S:Model up;	D:Model left;
+------------------------------------------------------------------------------------------------------
+Model rotation around Y-axis (a and d) 		|Q:	Counter Clockwise rotation around world coordianate Y-axis;(this coommand is availiable when racket is selected)
+						|E:	Clockwise rotation around world coordianate Y-axis;(this coommand is availiable when racket is selected)
+------------------------------------------------------------------------------------------------------
+Changing world orientation (arrows and HOME) 	|UP arrow:	Counter Clockwise rotation around world coordianate X-axis;
+						|DOWN arrow:	Clockwise rotation around world coordianate X-axis;
+						|RIGHT arrow:	Clockwise rotation around world coordianate Y-axis;
+						|LEFT arrow:	Counter Clockwise rotation around world coordianate Y-axis;
+						|HOME:		back to initial position no matter it's shifted,scaled, or rotated.
+------------------------------------------------------------------------------------------------------
+Camera tilt and pan 				|V:	Pan to the right
+						|B:	Pan to the left
+						|F:	Tilt up
+						|G:	Tilt down
+------------------------------------------------------------------------------------------------------
+Camera zoom (in and out) 			|U:	 Zoom in
+						|J	 Zoom out
