@@ -1,0 +1,181 @@
+﻿  Source.cpp
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\shaderloader.h(28,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Cube.h(97,35): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Cube.h(121,41): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=std::seed_seq::result_type
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Cube.h(122,41): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=std::seed_seq::result_type
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Cube.h(123,41): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=std::seed_seq::result_type
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Cube.h(125,41): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=std::seed_seq::result_type
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Cube.h(126,41): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=std::seed_seq::result_type
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Cube.h(127,41): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=std::seed_seq::result_type
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Cube.h(130,29): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Sphere.h(42,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Sphere.h(46,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\OBJloader.h(37,28): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\OBJloader.h(37,28): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\OBJloader.h(37,28): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\OBJloader.h(37,28): message : this argument is used as a buffer size
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(59,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(112,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(118,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(125,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(131,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(161,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(168,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(181,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(188,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(201,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(208,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(440,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(457,83): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(470,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(501,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(507,55): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(507,41): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(507,27): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(511,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(882,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(886,97): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(929,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(931,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(975,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(978,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1020,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1022,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1065,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1068,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1110,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1112,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1175,35): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1175,26): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1188,58): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1188,45): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1942,66): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1942,53): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(1942,40): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2101,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2124,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2131,62): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2131,52): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2176,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2490,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2494,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2537,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2539,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2583,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2586,97): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2628,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2630,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2673,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2676,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2718,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2720,93): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2841,86): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2849,86): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2858,86): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2866,86): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2876,86): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(2903,37): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(436,15): warning C4101: 'Tlowerarm': unreferenced local variable
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(436,37): warning C4101: 'Tpole': unreferenced local variable
+C:\Users\zsy11\Desktop\COMP371_Project_team5\COMP371_Project_team5\Source.cpp(436,26): warning C4101: 'Tupperarm': unreferenced local variable
+  COMP371_Project_team5.vcxproj -> C:\Users\zsy11\Desktop\COMP371_Project_team5\Debug\COMP371_Project_team5.exe
